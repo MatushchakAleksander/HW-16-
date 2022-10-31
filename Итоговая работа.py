@@ -22,11 +22,11 @@ instrukciya()
 def drawBoard(board):
     # Эта функция выводит на экран игровое поле, клетки которого будут заполняться.
     # "board" - это список из  строк, для прорисовки игрового поля (индекс 0 игнорируется).
-    print(" " * 50 + board[1] + "  | " + board[2] + " | " + board[3])
-    print(" " * 50 + "---|---|----")
-    print(" " * 50 + board[4] + "  | " + board[5] + " | " + board[6])
-    print(" " * 50 + "---|---|----")
-    print(" " * 50 + board[7] + "  | " + board[8] + " | " + board[9])
+    print(" " * 50 + board[1] + " ║ " + board[2] + " ║ " + board[3])
+    print(" " * 50 + "══╦═══╦══")
+    print(" " * 50 + board[4] + " ║ " + board[5] + " ║ " + board[6])
+    print(" " * 50 + "══╦═══╦══")
+    print(" " * 50 + board[7] + " ║ " + board[8] + " ║ " + board[9])
     print()
     print('***************************************************************')
     print()
@@ -109,7 +109,7 @@ def getPlayerMove(board):
         time.sleep(0.5)
         print("Вы сделали свой ход.✔")
         time.sleep(1.0)
-        print("Ждём ответный ход компьютера....")
+        print("Ждём ответный ход компьютера....㋛ ")
         time.sleep(1.0)
     return int(move)
 
