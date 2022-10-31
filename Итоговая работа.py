@@ -63,7 +63,7 @@ def whoGoesFirst():
         return "Компьютер"
     else:
         print("Ожидаем жребий первого хода... ")
-        time.sleep(3.0)
+        time.sleep(1.0)
         return "Человек"
 
 
